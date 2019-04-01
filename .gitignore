@@ -1,2 +1,4 @@
 /Wifi/output.txt
 /Wifi/wlan-report-latest.html
+/GetDump/Procdump/*
+/GetDump/Procdump.zip
