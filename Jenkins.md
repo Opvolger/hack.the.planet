@@ -1,3 +1,5 @@
+
+```jenkins
 pipeline {
     agent any
 
@@ -23,3 +25,4 @@ pipeline {
         }
     }
 }
+```
